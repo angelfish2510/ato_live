@@ -17,7 +17,7 @@ body {
     background: #e6d9d9;
     color: #4d0013;
     background-image: radial-gradient( circle at top, #d2fff4, #deb9bc);
-    font-size: 1.3em;
+    /* font-size: 1.6em; */
 }
 
 
@@ -82,6 +82,7 @@ footer {
     padding-bottom: 25px;
     font-size: 1.3em;
     text-align: center;
+    margin: auto;
 }
 
 /* .nonprofit-footer p {
@@ -96,7 +97,8 @@ footer {
     margin: 20px;
     flex-grow: 1;
     /* max-width: 60%; */
-    max-width: 250px;
+    max-width: 500px;
+    overflow: hidden;
 }
 
 .main-nav {
@@ -752,18 +754,18 @@ blockquote {
   Media Queries
 ==================================== */
 
-/* @media (min-width: 768px) { */
-
-@media (min-width: 1081px) {
-
-    .mission,
-    .nonprofit-footer {
-        max-width: 35%;
-    }
-
+/* @media (min-width: 768px) {
     .mission {
         order: -1;
     }
+} */
+
+@media (min-width: 1081px) {
+
+    /* .mission,
+    .nonprofit-footer {
+        max-width: 35%;
+    } */
 
     .main-footer {
         padding: 0px 0px 20px 0px;
@@ -1040,6 +1042,10 @@ blockquote {
 /* @media  (min-width: 1024px) { */
 
 @media  (min-width: 1200px) {
+
+    .mission {
+        order: -1;
+    }
 
 
     .main-header,
