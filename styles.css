@@ -266,6 +266,10 @@ h2 {
     padding: 5px 10px;
 }
 
+.sublist_li {
+    list-style-type: none;
+}
+
 .sublist {
     margin-left: 20px;
 }
@@ -1095,7 +1099,7 @@ blockquote {
 
     .float {
         display: block;
-        overflow: none;
+        overflow: hidden;
     }
 
     .org-img {
