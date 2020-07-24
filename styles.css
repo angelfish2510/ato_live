@@ -17,7 +17,6 @@ body {
     background: #e6d9d9;
     color: #4d0013;
     background-image: radial-gradient( circle at top, #d2fff4, #deb9bc);
-    font-size: 22px;
 }
 
 
@@ -28,6 +27,10 @@ header {
     /* display: flex; */
     /* flex-direction: column; */
 
+}
+
+div {
+    font-size: 19px;
 }
 
 
@@ -772,7 +775,7 @@ blockquote {
 
 @media (min-width: 1081px) {
 
-    body {
+    div {
         font-size: 1em;
     }
 
