@@ -34,9 +34,15 @@ div li {
     font-size: 21px;
 }
 
-h1,
-h2,
-h3,
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.6em;
+}
 h4 {
     font-size: 1.5em;
 }
@@ -783,9 +789,9 @@ blockquote {
 
 @media (min-width: 1081px) {
 
-    div {
+    /* div {
         font-size: 1em;
-    }
+    } */
 
     /* .mission,
     .nonprofit-footer {
