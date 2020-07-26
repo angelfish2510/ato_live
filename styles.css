@@ -23,7 +23,7 @@ body {
 
 header {
     width: 100%;
-    background-image: linear-gradient(to right, rgba(77, 0, 19, .9), #deb9bc);
+    background-image: linear-gradient(to right, rgba(77, 0, 19, .85), rgba(222, 185, 188, .95));
     color: #eedcdd;
     /* opacity: 0.9; */
     /* opacity: 0.9; */
@@ -31,6 +31,7 @@ header {
     /* flex-direction: column; */
 
 }
+
 /* 
 .header-background {
     opacity: 0.9;
@@ -65,7 +66,7 @@ h4 {
 
 footer {
     width: 100%;
-    background-image: linear-gradient(to left, rgba(77, 0, 19, .9), #deb9bc);
+    background-image: linear-gradient(to left, rgba(77, 0, 19, .85), rgba(222, 185, 188, .95));
     color: #eedcdd;
 }
 
