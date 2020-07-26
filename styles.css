@@ -23,12 +23,26 @@ body {
 
 header {
     width: 100%;
-    background-image: linear-gradient(to right, #4d0013, #deb9bc);
+    background-image: linear-gradient(to right, rgba(77, 0, 19, .9), #deb9bc);
     color: #eedcdd;
+    /* opacity: 0.9; */
+    /* opacity: 0.9; */
     /* display: flex; */
     /* flex-direction: column; */
 
 }
+/* 
+.header-background {
+    opacity: 0.9;
+}
+
+.opacity {
+    opacity: 1.0;
+} */
+
+/* .name {
+    opacity: 1.0;
+} */
 
 /* div p,
 div li {
@@ -51,7 +65,7 @@ h4 {
 
 footer {
     width: 100%;
-    background-image: linear-gradient(to left, #4d0013, #deb9bc);
+    background-image: linear-gradient(to left, rgba(77, 0, 19, .9), #deb9bc);
     color: #eedcdd;
 }
 
