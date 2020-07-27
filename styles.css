@@ -23,7 +23,9 @@ body {
 
 header {
     width: 100%;
-    background-image: linear-gradient(270deg,rgb(222, 185, 188) 0%, #CE969B 60%, rgb(77, 0, 19) 100%);
+    /* background-image: linear-gradient(270deg,rgb(222, 185, 188) 0%, #be737a 60%, rgb(77, 0, 19) 100%); */
+    background-image: linear-gradient(270deg,#CE969B 0%, #c6858a 60%, rgb(77, 0, 19) 100%);
+
     color: #f6edee;
     /* opacity: 0.9; */
     /* opacity: 0.9; */
@@ -33,7 +35,7 @@ header {
 
 footer {
     width: 100%;
-    background-image: linear-gradient(90deg ,rgb(222, 185, 188) 0%, #CE969B 60%, rgb(77, 0, 19) 100%);
+    background-image: linear-gradient(90deg,#CE969B 0%, #c6858a 60%, rgb(77, 0, 19) 100%);
     color: #eedcdd;
 }
 
