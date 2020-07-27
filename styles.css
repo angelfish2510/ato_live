@@ -80,6 +80,10 @@ footer {
     margin: auto; */
 }
 
+.nonprofit-footer p {
+    padding-right: 15px;
+}
+
 .mission p {
     padding-bottom: 25px;
     font-size: 1.3em;
