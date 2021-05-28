@@ -104,6 +104,10 @@ footer {
     padding: 5px 10px 5px 20px; */
 }
 
+.fb-img {
+  width: 5px;
+}
+
 /* .nonprofit-footer p {
     display: flex;
     padding-bottom: 25px;
