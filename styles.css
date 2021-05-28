@@ -132,6 +132,10 @@ footer {
     margin-top: 8px;
 }
 
+.email {
+    font: black;
+}
+
 /* .main-nav ul {
     display: flex;
     flex-wrap: wrap;
