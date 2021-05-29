@@ -133,7 +133,7 @@ footer {
     margin-top: 8px;
 }
 
-.email a {
+.email a[href^"mailto"] {
     color: black;
 }
 
