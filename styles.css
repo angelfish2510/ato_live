@@ -133,7 +133,7 @@ footer {
     margin-top: 8px;
 }
 
-.email a[href^"mailto"] {
+.email a {
     color: black;
 }
 
@@ -505,6 +505,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+.content {
+    perspective: 700px;
+}
+
 /* .achievement, */
 .path-app,
 .path-network,
@@ -562,6 +566,29 @@ h2 {
         margin: 5px;
         padding: 5px 10px;
     }
+
+.path-app,
+.path-support {
+    transition: 1s ease-out;
+    transform-style: preserve-3d;
+}
+
+.path-app:hover,
+.path-support:hover {
+    transform: rotateY(-180deg);
+}
+
+.side-b {
+    z-index: 100;
+    transform: rotateY(180deg);
+}
+
+.side-a,
+.side-b {
+    backface-visibility: hidden;
+}
+
+
 
 .achiever h2 {
     text-align: center;
@@ -739,6 +766,11 @@ figcaption {
     /* transition: transform .8s; */
     /* perspective: 700px; */
     /* justify-items: center; */
+}
+
+.kerikay-pic-a {
+    display: flex;
+    flex-direction: column;
 }
 
 /* .kerikay-pic {
